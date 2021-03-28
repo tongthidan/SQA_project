@@ -11,7 +11,8 @@
     <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <link rel="stylesheet" href="../CSS/signin.css">
-    <title>Login</title>
+
+    <title>Register</title>
 </head>
 
 <body>
@@ -31,18 +32,36 @@
 
                     <form action="" method="post">
                         <div class="row px-3"> <label class="mb-1 mt-5">
+                                <h6 class="mb-0 text-sm">Họ và tên</h6>
+                            </label> <input class="mb-4" type="text" name="name">
+                        </div>
+                        <div class="row px-3"> <label class="mb-1">
                                 <h6 class="mb-0 text-sm">Tên đăng nhập</h6>
                             </label> <input class="mb-4" type="text" name="email">
                         </div>
                         <div class="row px-3"> <label class="mb-1">
                                 <h6 class="mb-0 text-sm">Mật khẩu</h6>
-                            </label> <input type="password" name="password"> </div>
-
-                        <div class="row mb-3 px-3"> <button type="submit" class="btn btn-blue text-center">Đăng
-                                nhập</button>
+                            </label> <input type="password" name="password"> 
                         </div>
-                        <div class="row mb-4 px-3"> <small class="font-weight-bold">Bạn chưa có tài khoản ? <a
-                                    class="text-danger ">Đăng kí</a></small> </div>
+                       
+                        <div class="row px-3"> <label class="mb-1">
+                                <h6 class="mb-0 text-sm">Nhập lại mật khẩu</h6>
+                            </label> <input type="password" name="repassword">
+                        </div>
+                        <div class="row px-3"> <label class="mb-1">
+                                <h6 class="mb-0 text-sm">Số điện thoại</h6>
+                            </label> <input class="mb-4" type="tel" name="phoneNumber">
+                        </div>
+                        <div class="row px-3"> <label class="mb-1">
+                            <h6 class="mb-0 text-sm">Địa chỉ</h6>
+                        </label> <input class="mb-4" type="text" name="email">
+                    </div>
+
+                        <div class="row mb-3 px-3"> 
+                            <button type="submit" class="btn btn-blue text-center">Đăng kí</button>
+                        </div>
+                        <div class="row mb-4 px-3"> <small class="font-weight-bold">Bạn đã có tài khoản ? <a
+                                    class="text-danger ">Đăng nhập</a></small> </div>
                     </form>
 
 
